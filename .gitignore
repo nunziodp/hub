@@ -1,0 +1,35 @@
+# Dipendenze
+**/node_modules/
+
+# Build
+**/dist/
+**/build/
+
+# Variabili d'ambiente e segreti (NON committare)
+**/.env
+**/.env.*
+!**/.env.example
+**/*.local
+.supabase_db_password.txt
+**/.supabase_db_password.txt
+
+# Supabase CLI (file temporanei locali)
+**/supabase/.temp/
+**/supabase/.branches/
+
+# Log
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.DS_Store
+**/.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Claude Code (impostazioni locali per-macchina)
+.claude/settings.local.json
+**/.claude/settings.local.json
